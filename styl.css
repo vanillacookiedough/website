@@ -1,0 +1,155 @@
+html
+{
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+}
+
+@keyframes myanimation
+{
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+}
+
+
+
+header
+{
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ 
+
+}
+
+ul
+{
+  list-style-type: none;
+  overflow: hidden;
+
+
+}
+
+li
+{
+	display: inline-block;
+
+}
+
+li a
+{
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 10px 25px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	min-width: 50px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+}
+
+li a:hover
+{
+	background-color: #AB58D4;
+	border-radius: 10px;
+}
+
+#logo
+{
+	cursor: pointer;
+	margin-right: auto;
+	max-height: 110px;
+	max-width: 110px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+#homekek
+{
+	height: 500px;
+	width: 500px;
+	position: relative;
+	left: 750px;
+	top: 50px;
+	border-style: none;
+	border-radius: 20px;
+}
+
+#order
+{
+	position: absolute;
+	top: 500px;
+	left: 380px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+}
+
+#order:hover
+{
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1s ease 0s;
+}
+
+.dessert
+{
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	left: 300px;
+	top: 200px;
+}
+
+.instagram-media
+{
+	position: relative;
+	top: 550px;
+
+}
+
+#work
+{
+	position: relative;
+	top: 350px;
+	left: px ;
+	font-family: 'Montserrat', sans-serif;
+	border-style: solid ;
+	text-align: center;
+}
+
+#About
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#khushi
+{
+	width: 400px;
+	height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+#info
+{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
