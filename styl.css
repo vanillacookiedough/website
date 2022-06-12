@@ -1,3 +1,5 @@
+
+
 html
 {
 	animation: myanimation;
@@ -73,58 +75,60 @@ li a:hover
 }
 
 
-
-#homekek
+	#homekek
 {
 	height: 500px;
 	width: 500px;
 	position: relative;
-	left: 750px;
-	top: 50px;
+	left: 900px;
+	top: 60px;
 	border-style: none;
 	border-radius: 20px;
 }
+
+
 
 #order
 {
 	position: absolute;
 	top: 550px;
-	left: 300px;
+	left: 400px;
 	border-style: none;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 10px;
+	color: black;
+	
 }
 
 #order:hover
 {
 	background-color: #AB58D4;
 	border-radius: 10px;
-	transition: all 1s ease 0s;
+	transition: all 1.4s ease 0s;
 }
 
 .dessert
 {
 	position: absolute;
 	font-family: 'Montserrat', sans-serif;
-	left: 200px;
+	left: 300px;
 	top: 300px;
 }
 
-.instagram-media
-{
-	position: relative;
-	top: 650px;
 
-}
 
 #work
 {
-	position: relative;
-	top: 350px;
-	left: px ;
+	position: absolute;
+	top: 850px;
+	left: 100px ;
 	font-family: 'Montserrat', sans-serif;
-	border-style: solid ;
 	text-align: center;
+	border: solid 3px black;
+	border-radius: 0px;
+	padding-left: 500px;
+	padding-right: 500px;
+	
 }
 
 #About
@@ -152,5 +156,13 @@ li a:hover
 	font-size: 15px;
 	font-weight: bold;
 }
+
+.instagram
+{
+  position: relative;
+  top: 600px;
+}
+
+
 
 
