@@ -1,207 +1,1140 @@
-html
-{
+@media only screen and (min-width: 370px) and (max-width: 390px){
+ 
+
+ html
+ {
 	animation: myanimation;
 	animation-duration: 25s;
 	animation-iteration-count: infinite;
 	overflow-x: hidden;
 
-}
+ }
 
-
-@keyframes myanimation
-{
+ @keyframes myanimation
+ {
    0%{background-color: #FFB5CF;}
    50%{background-color:#CBB5FF;}
    100%{background-color: #FFB5CF;}
-}
-header
-{
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
+ }
  
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
 
-}
-
-ul
-{
+ ul
+ {
   list-style-type: none;
   overflow: hidden;
-  position: relative;
-  left: 400px;
+  position: absolute;
+  left: 93px;
 
+ }
 
-
-}
-
-li
-{
+ li
+ {
 	display: inline-block;
 
+ } 
 
-}
-
-li a
-{
+ li a
+ {
 	float: left;	
 	color: black;
-    font-family: 'Montserrat', sans-serif;	
-    padding: 10px 25px;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 5px 5px;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 8px;
 	text-align: center;
-	min-width: 50px;
+	min-width: 20px;
 	text-decoration: none;
 	transition: all 0.6s ease 0s;
 
 
-}
+ } 
 
-li a:hover
-{
+ li a:hover
+ {
 	background-color: #AB58D4;
 	border-radius: 10px;
-}
+ }
 
-#logo
-{
+ #logo
+ {
 	cursor: pointer;
 	margin-right: auto;
-	max-height: 110px;
-	max-width: 110px;
-	padding-left: 10px;
+	max-height: 50px;
+	max-width: 50px;
+	padding-left: 0px;
 	padding-bottom: 10px;
-}
+ }
 
-#order:hover
-{
-	background-color: #AB58D4;
-	border-radius: 10px;
-	transition: all 1.4s ease 0s;
-}
-
-
-
-@media only screen and (orientation:portrait)
+ #homekek
  {
-   #homekek
-   {
-   height: 400px;
-	 width: 400px;
-	 position: relative;
-	 left: 400px;
-	 bottom: 80px;
-	 border-style: none;
-	 border-radius: 20px;
-   }
-   
-   .dessert
-    {
-	  position: relative;
-	  font-family: 'Montserrat', sans-serif;
-	  left: 130px;
-	  top: 180px;
-	  font-size: 15.5px;
-    } 
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 120px;
+	bottom: 80px;
+	border-style: none;
+	border-radius: 20px;
+ }
 
-    #order
-   {
-	  position: relative;
-	  bottom: 140px;
-	  left: 220px;
-	  border-style: none;
-	  font-family: 'Montserrat', sans-serif;
-	  border-radius: 10px;
-	  color: black;
-   }
-   
-   ul
-   {
-    position: relative;
-   	left: 0px;
-   }
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 0px;
+	top:35px;
+	font-size: 8px;
+ }
 
-   #work
-   {
-   	position: absolute;
-	 top: 750px;
-	 left: 50px ;
-	 font-family: 'Montserrat', sans-serif;
-	 text-align: center;
-	 border: solid 3px black;
-	 border-radius: 0px;
-	 padding-left: 250px;
-	 padding-right: 300px;
-   }
-
-
-   .instagram
-  {
-   position: relative;
-   top: 300px;
-   max-width: 200px;
-  }
-}
-
-@media only screen and (orientation:landscape){
-	 
-	 #homekek
-	 {
-	 	width: 500px;
-	 	height: 500px;
-	 	position: relative;
-	 	left: 900px;
-	  bottom: 170px;
-	  border-style: none;
-	  border-radius: 20px;
-	 }
-
-	 ul
-	 {
-	 	position: relative;
-	 	left: 0px;
-	 }
-
-	 .dessert
-	 {
-	 	position: relative;
-	 	font-family: 'Montserrat', sans-serif;
-	  left: 300px;
-	  top: 100px;
-	  font-size: 18px;
-	 }
-
-	 #order
-  {
-	position: absolute;
-	top: 470px;
-	left: 430px;
+ #order
+ {
+	position: relative;
+	bottom: 80px;
+	left: 40px;
 	border-style: none;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 10px;
 	color: black;
-  }
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	font-size: 7px;
+	
+ }
 
-  #work
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
  {
 	position: absolute;
-	top: 750px;
-	left: 100px ;
+	top: 300px;
+	left: 50px ;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	border: solid 3px black;
+	border: solid 2px black;
 	border-radius: 0px;
-	padding-left: 500px;
-	padding-right: 500px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 30px;
 	
-  }
-
-  .instagram
- {
-  position: relative;
-  top: 200px;
  }
+
+ .instagram
+ {
+  position:absolute;
+  top: 450px;
+  
+ }
+
 
 }
 
 
+
+@media only screen and (min-width: 400px) and (max-width: 420px){
+ 
+
+ html
+ {
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+ }
+
+ @keyframes myanimation
+ {
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+ }
+ 
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
+
+ ul
+ {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  left: 120px;
+
+ }
+
+ li
+ {
+	display: inline-block;
+
+ } 
+
+ li a
+ {
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 5px 5px;
+	font-weight: bold;
+	font-size: 8px;
+	text-align: center;
+	min-width: 20px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+ } 
+
+ li a:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+ }
+
+ #logo
+ {
+	cursor: pointer;
+	margin-right: auto;
+	max-height: 50px;
+	max-width: 50px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+ }
+
+ #homekek
+ {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 150px;
+	bottom: 50px;
+	border-style: none;
+	border-radius: 20px;
+ }
+
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 20px;
+	top:55px;
+	font-size: 8px;
+ }
+
+ #order
+ {
+	position: relative;
+	bottom: 60px;
+	left: 60px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+	color: black;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	font-size: 7px;
+	
+ }
+
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
+ {
+	position: absolute;
+	top: 300px;
+	left: 50px ;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border: solid 2px black;
+	border-radius: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 30px;
+	
+ }
+
+ .instagram
+ {
+  position:absolute;
+  top: 450px;
+  
+ }
+
+
+}
+
+
+
+@media only screen and (390px <= width <= 395px){
+ 
+
+ html
+ {
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+ }
+
+ @keyframes myanimation
+ {
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+ }
+ 
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
+
+ ul
+ {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  left: 100px;
+
+ }
+
+ li
+ {
+	display: inline-block;
+
+ } 
+
+ li a
+ {
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 5px 5px;
+	font-weight: bold;
+	font-size: 8px;
+	text-align: center;
+	min-width: 20px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+ } 
+
+ li a:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+ }
+
+ #logo
+ {
+	cursor: pointer;
+	margin-right: auto;
+	max-height: 50px;
+	max-width: 50px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+ }
+
+ #homekek
+ {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 150px;
+	bottom: 50px;
+	border-style: none;
+	border-radius: 20px;
+ }
+
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 20px;
+	top:55px;
+	font-size: 8px;
+ }
+
+ #order
+ {
+	position: relative;
+	bottom: 60px;
+	left: 60px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+	color: black;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	font-size: 7px;
+	
+ }
+
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
+ {
+	position: absolute;
+	top: 300px;
+	left: 50px ;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border: solid 2px black;
+	border-radius: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 30px;
+	
+ }
+
+ .instagram
+ {
+  position:absolute;
+  top: 450px;
+  
+ }
+
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 770px){
+ 
+
+ html
+ {
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+ }
+
+ @keyframes myanimation
+ {
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+ }
+ 
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
+
+ ul
+ {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  left: 250px;
+
+ }
+
+ li
+ {
+	display: inline-block;
+
+ } 
+
+ li a
+ {
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 0px 10px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	min-width: 20px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+ } 
+
+ li a:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+ }
+
+ #logo
+ {
+	cursor: pointer;
+	margin-right: auto;
+	max-height: 90px;
+	max-width: 90px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+ }
+
+ #homekek
+ {
+	height: 300px;
+	width: 300px;
+	position: relative;
+	left: 300px;
+	bottom: 100px;
+	border-style: none;
+	border-radius: 20px;
+ }
+
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 80px;
+	top:55px;
+	font-size: 12px;
+ }
+
+ #order
+ {
+	position: relative;
+	bottom: 150px;
+	left: 150px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+	color: black;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	font-size: 9px;
+	
+ }
+
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
+ {
+	position: absolute;
+	top: 550px;
+	left: 20px ;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border: solid 2px black;
+	border-radius: 0px;
+	padding-left: 220px;
+	padding-right: 220px;
+	font-size: 30px;
+	
+ }
+
+ .instagram
+ {
+  position:absolute;
+  top: 750px;
+  
+ }
+
+
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1024px){
+ 
+
+ html
+ {
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+ }
+
+ @keyframes myanimation
+ {
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+ }
+ 
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
+
+ ul
+ {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  left: 450px;
+
+ }
+
+ li
+ {
+	display: inline-block;
+
+ } 
+
+ li a
+ {
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 0px 15px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	min-width: 20px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+ } 
+
+ li a:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+ }
+
+ #logo
+ {
+	cursor: pointer;
+	margin-right: auto;
+	max-height: 90px;
+	max-width: 90px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+ }
+
+ #homekek
+ {
+	height: 400px;
+	width: 400px;
+	position: relative;
+	left: 450px;
+	bottom: 180px;
+	border-style: none;
+	border-radius: 20px;
+ }
+
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 90px;
+	top:80px;
+	font-size: 18px;
+ }
+
+ #order
+ {
+	position: relative;
+	bottom: 250px;
+	left: 200px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+	color: black;
+	width: 140px;
+	height: 70px;
+	text-align: center;
+	font-size: 9px;
+	
+ }
+
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
+ {
+	position: absolute;
+	top: 600px;
+	left: 30px ;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border: solid 2px black;
+	border-radius: 0px;
+	padding-left: 350px;
+	padding-right: 350px;
+	font-size: 30px;
+	
+ }
+
+ .instagram
+ {
+  position:absolute;
+  top: 750px;
+  
+ }
+
+
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1850px){
+ 
+
+ html
+ {
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+ }
+
+ @keyframes myanimation
+ {
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+ }
+ 
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
+
+ ul
+ {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  left: 640px;
+
+ }
+
+ li
+ {
+	display: inline-block;
+
+ } 
+
+ li a
+ {
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 0px 15px;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	min-width: 20px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+ } 
+
+ li a:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+ }
+
+ #logo
+ {
+	cursor: pointer;
+	margin-right: auto;
+	max-height: 180px;
+	max-width: 180px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+ }
+
+ #homekek
+ {
+	height: 500px;
+	width: 500px;
+	position: relative;
+	left: 650px;
+	bottom: 200px;
+	border-style: none;
+	border-radius: 20px;
+ }
+
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 270px;
+	top:150px;
+	font-size: 22px;
+ }
+
+ #order
+ {
+	position: relative;
+	bottom: 250px;
+	left: 400px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+	color: black;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-size: 15px;
+	
+ }
+
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
+ {
+	position: absolute;
+	top: 900px;
+	left: 90px ;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border: solid 3px black;
+	border-radius: 0px;
+	padding-left: 450px;
+	padding-right: 450px;
+	font-size: 40px;
+	
+ }
+
+ .instagram
+ {
+  position:absolute;
+  top: 1250px;
+  left: 20px;
+  
+ }
+
+
+
+}
+
+
+@media only screen and (min-width: 1900px) and (max-width: 1950px){
+ 
+
+ html
+ {
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+ }
+
+ @keyframes myanimation
+ {
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+ }
+ 
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
+
+ ul
+ {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  left: 1040px;
+
+ }
+
+ li
+ {
+	display: inline-block;
+
+ } 
+
+ li a
+ {
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 0px 25px;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	min-width: 20px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+ } 
+
+ li a:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+ }
+
+ #logo
+ {
+	cursor: pointer;
+	margin-right: auto;
+	max-height: 180px;
+	max-width: 180px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+ }
+
+ #homekek
+ {
+	height: 700px;
+	width: 700px;
+	position: relative;
+	left: 1050px;
+	bottom: 350px;
+	border-style: none;
+	border-radius: 20px;
+ }
+
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 390px;
+	top:80px;
+	font-size: 30px;
+ }
+
+ #order
+ {
+	position: relative;
+	bottom: 450px;
+	left: 600px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+	color: black;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-size: 15px;
+	
+ }
+
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
+ {
+	position: absolute;
+	top: 1000px;
+	left: 90px ;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border: solid 3px black;
+	border-radius: 0px;
+	padding-left: 700px;
+	padding-right: 700px;
+	font-size: 40px;
+	
+ }
+
+ .instagram
+ {
+  position:absolute;
+  top: 1250px;
+  left: 20px;
+  
+ }
+
+
+
+}
+
+
+@media only screen and (min-width: 2500px) and (max-width: 2600px){
+ 
+
+ html
+ {
+	animation: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	overflow-x: hidden;
+
+ }
+
+ @keyframes myanimation
+ {
+   0%{background-color: #FFB5CF;}
+   50%{background-color:#CBB5FF;}
+   100%{background-color: #FFB5CF;}
+ }
+ 
+ header
+ {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+ }
+
+ ul
+ {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  left: 1300px;
+
+ }
+
+ li
+ {
+	display: inline-block;
+
+ } 
+
+ li a
+ {
+	float: left;	
+	color: black;
+  font-family: 'Montserrat', sans-serif;	
+  padding: 0px 35px;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	min-width: 20px;
+	text-decoration: none;
+	transition: all 0.6s ease 0s;
+
+
+ } 
+
+ li a:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+ }
+
+ #logo
+ {
+	cursor: pointer;
+	margin-right: auto;
+	min-height: 250px;
+	min-width: 250px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+ }
+
+ #homekek
+ {
+	height: 900px;
+	width: 900px;
+	position: relative;
+	left: 1250px;
+	bottom: 400px;
+	border-style: none;
+	border-radius: 20px;
+ }
+
+ .dessert
+ {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	left: 390px;
+	top:250px;
+	font-size: 40px;
+ }
+
+ #order
+ {
+	position: relative;
+	bottom: 450px;
+	left: 650px;
+	border-style: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 20px;
+	color: black;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	font-size: 21px;
+	
+ }
+
+ #order:hover
+ {
+	background-color: #AB58D4;
+	border-radius: 10px;
+	transition: all 1.4s ease 0s;
+ }
+
+ #work
+ {
+	position: absolute;
+	top: 1400px;
+	left: 100px ;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border: solid 4px black;
+	border-radius: 0px;
+	padding-left: 900px;
+	padding-right: 900px;
+	font-size: 60px;
+	
+ }
+
+ .instagram
+ {
+  position:absolute;
+  top: 1700px;
+  left: 20px;
+  
+ }
+
+
+
+}

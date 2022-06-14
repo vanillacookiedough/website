@@ -39,7 +39,6 @@ li
 {
 	display: inline-block;
 
-
 }
 
 li a
@@ -161,6 +160,10 @@ li a:hover
 {
   position: relative;
   top: 600px;
+}
+
+#hidden{
+	
 }
 
 
